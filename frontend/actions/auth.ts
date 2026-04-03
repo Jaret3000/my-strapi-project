@@ -9,7 +9,7 @@ const cookieConfig = {
     maxAge: 60 * 60 * 24 * 7, //1 semana
     path: '/',
     httpOnly: true, //Solo es accesible por el servidor
-    domain: process.env.HOST ?? 'localhost',
+    //domain: process.env.HOST ?? 'localhost', 
     secure: process.env.NODE_ENV === 'production',
 }
 
